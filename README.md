@@ -1,11 +1,12 @@
-# Network and Systems Tools
+# Python Port Scanner
 
-Small Python tools created to practice networking and system fundamentals.
+Scanner de portas desenvolvido em Python para fins educacionais.
 
-## Tools
+## Funcionalidades
+- Varredura de portas TCP
+- Uso de multithreading
+- Medição de tempo de execução
 
-### Port Scanner
-A simple TCP port scanner that checks which ports are open on a target host.
-
-## Purpose
-This repository exists for learning and portfolio purposes.
+## Como executar
+```bash
+python port_scanner.py 127.0.0.1 --start 1 --end 1024
